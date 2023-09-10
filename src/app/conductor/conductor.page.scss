@@ -1,0 +1,50 @@
+#contenedor {
+    background-color: #fafafa;
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px; 
+  }
+  
+  .title-container {
+    background-color: #f7a817;
+    color: rgb(6, 6, 6);
+    padding: 25px;
+    width: 100%;
+    text-align: center;
+  } 
+
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f7a817;
+    color: rgb(6, 6, 6);
+    padding: 10px;
+  } 
+  
+  footer ion-icon {
+    margin:  4%;
+    
+  }
+
+
+  
+form {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px; 
+  }
+  
+ 
+  
+  ion-button {
+    width: 200px; 
+    height: auto; 
+    color: #000; 
+    font-size: 16px; 
+    margin: 20px auto; 
+    text-align: center; 
+  }
+  
