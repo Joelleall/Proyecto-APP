@@ -32,13 +32,13 @@
       
       <ion-button expand="full" type="submit" class="boton-personalizado">Iniciar</ion-button>
     </form>
-
+    
     <ion-button expand="full" type="submit" class="boton-personalizado" (click)="volverPaginaAnterior()">Volver</ion-button>
   </div>
 
   <footer>
     <ion-icon name="home-outline"></ion-icon>
-    <ion-icon name="stats-chart-outline"></ion-icon>
+    <ion-icon name="stats-chart-outline" (click)="irAHistorial()"></ion-icon>
     <ion-icon name="mail-outline"></ion-icon>
     <ion-icon name="wallet-outline"></ion-icon>
   </footer>

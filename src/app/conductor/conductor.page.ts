@@ -50,6 +50,9 @@ export class ConductorPage {
   volverPaginaAnterior() {
     this.navCtrl.back();
   }
+  irAHistorial() {
+    this.navCtrl.navigateForward('/historial');
+  }
 }
 
 

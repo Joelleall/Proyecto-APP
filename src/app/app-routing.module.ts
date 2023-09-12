@@ -18,7 +18,11 @@ const routes: Routes = [
   {
     path: 'pasajero',
     loadChildren: () => import('./pasajero/pasajero.module').then( m => m.PasajeroPageModule)
+  },  {
+    path: 'historial',
+    loadChildren: () => import('./historial/historial.module').then( m => m.HistorialPageModule)
   },
+
 ];
 
 @NgModule({
